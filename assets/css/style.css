@@ -1,0 +1,134 @@
+@import url('https://fonts.googleapis.com/css2?family=Raleway:ital,wght@0,100..900;1,100..900&display=swap');
+
+
+*{
+    margin: 0%;
+    box-sizing: border-box;
+    font-family: "Raleway", sans-serif;
+    font-style: normal;
+}
+
+/* este es el header*/
+
+.header {
+    background-color: black;
+    color: aliceblue;
+    text-align: center;
+}
+
+.header > h1 {
+    padding: 10px;
+}
+
+.header > img {
+    background-size: cover;
+}
+
+/* este es el main*/
+
+.main {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 40px;
+
+    padding-bottom: 70px;
+    background-color: black;
+    color: aliceblue;
+}
+
+.parrafo {
+    width: 35%;
+    margin: 0;
+    margin-left: 80px;
+    text-align: eft; 
+    color: aliceblue;
+    font-size: 18px;
+}
+.parrafo > p {
+    padding: 0; 
+}
+
+.imagen {
+    text-align: center;
+
+}
+
+.imagen > img {
+    max-width: 70%; 
+    height: auto; 
+}
+
+/* este es el section 1*/
+
+.section{
+    background-color: #1E1A13;
+    color: white;
+    padding: 40px 40px 40px 40px;
+    height: 350px;
+}
+
+.section > h1 {
+    padding:20px;
+    padding-top: 0;
+    text-align: center;
+    font-size: 35px;
+}
+
+
+.section-card {
+    display: flex;
+    gap: 20px;
+    text-align: center;
+    justify-content: center;
+    padding: 20px;
+    padding-top: 60px;
+    
+}
+
+.card {
+    width: 15%;
+
+}
+
+.card > p {
+    padding-top: 10px;
+    font-size: 25px;
+}
+
+
+
+
+
+/* este es el section 2*/
+
+.container-imagenes{
+    display: flex;
+    justify-content: center;
+    background-color: black;
+}
+
+.caja-imagen {
+    width: 30%;
+    padding: 60px;
+    
+}
+
+.caja-imagen > img {
+    width: 100%;
+    height: 300px;
+}
+
+
+/* este es el footer*/
+
+footer{
+    background-color: #1E1A13;
+    color: aliceblue;
+    text-align: center;
+    padding: 40px;
+}
+
+footer > p {
+    padding: 0;
+}
